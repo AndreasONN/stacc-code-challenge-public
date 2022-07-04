@@ -31,7 +31,7 @@ Vi presiserer at kandidater står fritt til å utforske problemstillingen slik d
 
 # Stacc KYC API / Data
 I forbindelse med kodeoppgaven har vi laget et enkelt API (express.js), med noen få endepunkter som kan hjelpe deg med å komme i gang med oppgaven:
-* Her kan du hente data fra [brønnøysundregisteret](https://www.brreg.no/) og [open sanctions](http://opensanctions.com/) som du kan benytte deg av for å utføre en PEP sjekk av personer og selskap.
+* Her kan du hente data fra [brønnøysundregisteret](https://www.brreg.no/) og [open sanctions](http://opensanctions.org/) som du kan benytte deg av for å utføre en PEP sjekk av personer og selskap.
 * Du velger helt selv om du vil konsumere vårt API, eller benytte deg av vedlagt test data ([pep.csv](https://raw.githubusercontent.com/hpl002/stacc-code-challenge-public/master/pep.csv)) i repo for å utføre PEP sjekken.
 
 API'et er tilgjengelig på: https://code-challenge.stacc.dev/
@@ -66,7 +66,7 @@ Vi har opprettet en egen Slack kanal for spørsmål relatert til oppgaven, ikke 
 
 ## Slack Kanal
 
-[![Joing us on Slack](https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/07/add-to-slack-button.png?auto=format&q=60&fit=max&w=930)](https://join.slack.com/share/enQtMzI4OTY3NzY5MTI4MS1hNWExMGU5NGIzOTlhMTc4NGIwNTdiMmFiMjk4ZTYzNWVkMWI3Mzg0OWM4MGY2NjYyZGRmYmUzZThlY2E2MGE4)
+[![Joing us on Slack](https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/07/add-to-slack-button.png?auto=format&q=60&fit=max&w=930)](https://join.slack.com/share/enQtMzc1NzExNTI5NTgxMi0wNmRkMWQyNDU5ZDk0YzIzOTliZmZlYWIwNmE0M2FkYTczN2E4NmQ4MTQwMmRmMDAxY2ViYWZiNjg0OTRjYmYy)
 
 ## E-post 📬 
 Spørsmål om oppgaven sendes hit:
