@@ -1,19 +1,23 @@
 {
 	"info": {
-		"_postman_id": "5ea0a799-10d7-4eb7-b4ca-8042fee1e741",
-		"name": "stacc code challenge 2022",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"_postman_id": "613412e2-da17-45ee-aae3-371612bc3f30",
+		"name": "Stacc Code Challenge: KYC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16040688"
 	},
 	"item": [
 		{
-			"name": "GET PEP hit",
+			"name": "PEP Søk (med treff)",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{server}}/api/pep?name=Knut Arild Hareide",
+					"raw": "https://code-challenge.stacc.dev/api/pep?name=Knut Arild Hareide",
+					"protocol": "https",
 					"host": [
-						"{{server}}"
+						"code-challenge",
+						"stacc",
+						"dev"
 					],
 					"path": [
 						"api",
@@ -30,31 +34,44 @@
 			"response": []
 		},
 		{
-			"name": "GET API Healthz",
+			"name": "Pep Søk (Ingen treff)",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{server}}/healthz",
+					"raw": "https://code-challenge.stacc.dev/api/pep?name=This person does not exist",
+					"protocol": "https",
 					"host": [
-						"{{server}}"
+						"code-challenge",
+						"stacc",
+						"dev"
 					],
 					"path": [
-						"healthz"
+						"api",
+						"pep"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "This person does not exist"
+						}
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "GET roles for company",
+			"name": "Selskaps Roller",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{server}}/api/roller?orgNr=988971375",
+					"raw": "https://code-challenge.stacc.dev/api/roller?orgNr=988971375",
+					"protocol": "https",
 					"host": [
-						"{{server}}"
+						"code-challenge",
+						"stacc",
+						"dev"
 					],
 					"path": [
 						"api",
@@ -71,14 +88,17 @@
 			"response": []
 		},
 		{
-			"name": "GET company",
+			"name": "Selskaps Info",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{server}}/api/enheter?orgNr=981078365",
+					"raw": "https://code-challenge.stacc.dev/api/enheter?orgNr=981078365",
+					"protocol": "https",
 					"host": [
-						"{{server}}"
+						"code-challenge",
+						"stacc",
+						"dev"
 					],
 					"path": [
 						"api",
@@ -95,24 +115,20 @@
 			"response": []
 		},
 		{
-			"name": "GET PEP hit - ERROR",
+			"name": "API Healthz",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{server}}/api/pep?name=This person does not exist",
+					"raw": "https://code-challenge.stacc.dev/healthz",
+					"protocol": "https",
 					"host": [
-						"{{server}}"
+						"code-challenge",
+						"stacc",
+						"dev"
 					],
 					"path": [
-						"api",
-						"pep"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "This person does not exist"
-						}
+						"healthz"
 					]
 				}
 			},
