@@ -41,6 +41,7 @@ I forbindelse med kodeoppgaven har vi laget et enkelt API (express.js), med noen
 
 - Her kan du hente data fra [brønnøysundregisteret](https://www.brreg.no/) og [open sanctions](http://opensanctions.org/) som du kan benytte deg av for å utføre en PEP sjekk av personer og selskap.
 - Du velger helt selv om du vil konsumere vårt API, eller benytte deg av vedlagt test data ([pep.csv](https://raw.githubusercontent.com/hpl002/stacc-code-challenge-public/master/pep.csv)) i repo for å utføre PEP sjekken.
+- Hvis du designer eller bare mocker data selv, kan du ta utgangspunkt i ([pep_small.json](https://raw.githubusercontent.com/hpl002/stacc-code-challenge-public/master/pep_small.json))
 
 API'et er tilgjengelig på: https://code-challenge.stacc.dev/
 
