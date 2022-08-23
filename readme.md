@@ -79,7 +79,7 @@ API'et er tilgjengelig på: https://code-challenge.stacc.dev/
 3. Alle oppgaver må inneholde en _readme.md_ fil som beskriver prosjektet i korte trekk. Følg [denne linken for mal.](https://github.com/hpl002/stacc-code-challenge-public/blob/master/readmeTemplate.md)
    - Her dokumenterer og kommenterer du smått underveis. Spesielt viktig at det medfølger gode instrukser som beskriver hvordan prosjektet kjøres lokalt.
      _Husk at dette ikke bare skal kjøre på din egen maskin!_
-4. **Innleveringer sendes [her](mailto:code-challenge-crew-aaaahgb5khpahj74w6n5a6z2re@stacc-as.slack.com?cc=reinu@stacc.com,hermanp@stacc.com).**
+4. **Innleveringer sendes [her](mailto:challenge@stacc.com?cc=reinu@stacc.com,hermanp@stacc.com).**
 
    **Enten link til offentlig repo eller .zip**
 
