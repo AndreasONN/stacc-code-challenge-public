@@ -33,7 +33,7 @@ Vi presiserer at kandidater står fritt til å utforske problemstillingen slik d
 
 - Hvis du er tryggest på front-end og ikke ønsker å knote med et eget API så er dette ikke noe problem.
 - Kanskje back-end er mer din greie? Bruk heller mesteparten av tiden din her.
-- Lite foretrekker design eller har lite erfaring med koding? Bruk da tiden på å skissere og finpusse på disse.
+- Foretrekker du heller design og har lite erfaring med koding? Bruk da tiden på å skissere og finpusse på disse.
 
 # Stacc KYC API / Data
 
